@@ -1,0 +1,27 @@
+a{
+    text-decoration: none;
+}
+/* ziyaret edilmiş linki nrengi */
+a:link{
+    color:orange;
+}
+a:visited{
+    color: crimson;
+}
+/* hover üstüne geldiğimizde rengini değiştiriyor */
+a.emojilink:hover{
+    background-color: crimson;
+    color: aqua;
+    text-decoration: overline;
+}
+/* cursor pointer mouse okunu el yapıyor */
+.title:hover{
+    cursor: pointer;
+    text-align: center;
+    color: blueviolet;
+    text-transform: uppercase;
+}
+/* active özelliği ile mouse link üstüne geldiğinde rengi değişiyor */
+a.link4:active{
+    color: fuchsia;
+}

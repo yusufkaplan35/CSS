@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Selectors-2></Selectors-2></title>
+    
+    <style>
+        h1.title{
+            color: red;
+            background-color: aqua!important;
+            /*important kullanıldıgı yeri baskın yapar*/
+        }
+    </style>
+    <!--! browser ilk once link kısmını okuduğu için css içindeki tanımlama orası oluyor. Ancak eğer aşağıdaki linki style ın üstüne alırsa bu sefer style içindeki tanımları kabul eder  -->
+    <link rel="stylesheet" href="/assets/css/07-style.css">
+</head>
+<body>
+    <h1 class="title" style="background-color: lime; color: white;">Hello  CSS</h1>
+
+    <p class="p-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis animi qui facilis officia porro quidem ut quasi iure? Quae eaque voluptas sit necessitatibus perspiciatis. Sint blanditiis assumenda perspiciatis molestiae earum!</p>
+    <p id="pId">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente praesentium, quisquam tenetur ab a cumque dolorem ad velit harum perspiciatis optio repudiandae, totam vel id ducimus fugiat commodi quia. Sint?</p>
+
+    <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio iusto autem possimus <span class="spanEl">totam repudiandae quibusdam iste</span>  doloribus beatae obcaecati cupiditate. Nulla, iusto libero. A repellendus harum ratione accusantium consectetur maiores?</p>
+
+
+</body>
+</html>

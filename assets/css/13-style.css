@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  h1.title {
+    text-transform: uppercase;
+    background-color: aqua;
+    font-size: 1rem;
+    text-align: center;
+  }
+  div.kutu-1 {
+    background-color: gold;
+    padding: 30px;
+    margin: 30px;
+  }
+  div.kutu-2 {
+    background-color: navy;
+    color: crimson;
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-right: 12px;
+  }
+  span.spanEl {
+    background-color: blueviolet;
+    padding-top: 35px;
+    margin-left: 100px;
+    margin-right: 40px;
+    padding: 0px 34px 0px 12px;
+  }
+  b.bEl {
+    background-color: crimson;
+    padding-top: 45px;
+  }
+  /* yataydan margin ve padding verilebilir
+   ama top ve bottomdan margin ve padding verilmez */
+   div.kutu-3{
+      background-color: chartreuse;
+      padding: 10px 20px 0px 45px;
+      margin: 45px 32px;
+    
+   }
+   div.kutu-4{
+      background-color: deeppink;
+      padding: 2rem;
+      margin: 4rem;
+   }

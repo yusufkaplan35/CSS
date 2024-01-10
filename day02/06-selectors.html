@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors-1</title>
+    <style>
+        /* Spesifik olan style geneli ezer */
+        *{
+            color:blue ;
+            background-color: orangered;
+            font-size: 30;
+        }
+        p{
+            color: red;
+            background-color: burlywood;
+        }
+        /*  nokta ve class ismi kullanımı ile spesifik bir tanımlama yapabiliriz */
+
+        .pEl{
+            color: blue;
+        }
+        /* p ve class ismi ile daha spesifik tanımlama yapılabilir. */
+        p.pEl{
+            color: white;
+        }
+
+        h1.title{
+            color: green;
+            background-color: blueviolet;
+            text-align: center;
+        }
+
+        div#divEl{
+            background-color: darkgoldenrod;
+            color: black;
+        }
+        
+
+
+    </style>
+
+</head>
+<body>
+    <h1 class="title">Selectors-1</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima quidem nobis corrupti exercitationem error voluptatum odio maiores nostrum assumenda eveniet impedit optio voluptatibus, aliquam laboriosam a quaerat hic reiciendis! Odio?</p>
+    <ol>
+        <li>Lorem.</li>
+        <li>Officiis.</li>
+        <li>A.</li>
+        <li>Libero.</li>
+        <li>Perspiciatis!</li>
+    </ol>
+    <p class="pEl">Lorem ipsum dolor sit amet consectetur.</p>
+
+    <div id="divEl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cupiditate sequi laudantium.</div>
+
+<!--! !important   ifadesine sahip tanımlama her zaman diğerlerini ezer-->
+<!--! inline seçiciler her zaman diğerlerini ezer  -->
+    
+</body>
+</html>
