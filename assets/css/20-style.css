@@ -1,0 +1,22 @@
+h1.title{
+    background-color: aqua;
+    color: red;
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    height: 200px;
+}
+span.spanEl{
+    background-color: blueviolet;
+    color: azure;
+    font-size: 3rem;
+    display: block;
+}
+div.hidden{
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 700;
+}
+div.hidden{
+    display: inline-block;
+}

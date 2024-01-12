@@ -1,0 +1,26 @@
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  a {
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+  }
+  nav.menu {
+    background-color: coral;
+    margin: 10px;
+  }
+  ul.menu-ul {
+    list-style-type: "❄️";
+    padding: 0;
+    list-style-position: inside;
+    line-height: 2;
+  }
+  .menu-ul-link{
+      padding: 3px;
+  }
+  a.menu-ul-link:hover{
+      background-color: blueviolet;
+      color: white;
+      border-radius: 5px;
+  }

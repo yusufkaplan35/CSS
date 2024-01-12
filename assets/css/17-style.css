@@ -1,0 +1,19 @@
+h1.title{
+    text-align: center;
+    background-color: aquamarine;
+    color: blue;
+    padding: 10px;
+}
+p.pAbout{
+    text-align:justify;
+    background-color: coral;
+}
+p.pAbout .spanEl{
+    background-color: chartreuse;
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover{
+    text-decoration: none;
+    color: orange;
+}

@@ -1,0 +1,26 @@
+:root{
+    --primary-color:#ECEE81;
+    --secondary-color:#8DDFCB;
+    --border:#82A0D8;
+    --text-color:#EDB7ED;
+    --radius:3px solid black;
+    --margin-p: 10px;
+    --font-size: 10px;
+}
+
+p.about{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    margin: var(--margin-p);
+    font-size: var(--font-size);
+}
+button.btn{
+    background-color: var(--primary-color);
+    border: var(--radius);
+    margin: var(--margin-p);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+

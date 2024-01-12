@@ -1,0 +1,34 @@
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+nav.navMenu{
+    background-color: mediumpurple;
+    padding: 20px;
+    margin: 100px;
+}
+nav.navMenu ul{
+    list-style-type: "🎅";
+    padding: 0;
+    list-style-position: inside;
+}
+nav.navMenu ul li{
+    line-height: 2;
+}
+nav.navMenu ul li a{
+    padding: 5px;
+}
+nav.navMenu ul li a:hover{
+    background-color: aqua;
+    color: brown;
+    border-radius: 5px;
+}
+
+p.p-1, 
+div.div-1{
+    background-color: yellow;
+    color: blueviolet;
+    padding: 10px;
+}

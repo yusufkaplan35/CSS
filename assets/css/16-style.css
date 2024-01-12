@@ -1,0 +1,68 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+header nav.nav-menu{
+    background-color: #454545;
+    text-align: center;
+    padding: 20px;
+}
+header a{
+    color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+}
+header a:hover{
+    color: #C60326;
+}
+header img{
+    width: 20px;
+    height: 20px;
+}
+main section{
+    text-align: center;
+    padding-top: 50px;
+   margin-bottom:15px ;
+   background-color: #242424;
+   color: whitesmoke;
+}
+main section h2{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+main section p{
+    font-size: 30px;
+    color: rgb(112, 110, 110);
+}
+main section .linkler{
+    font-size: 22px;
+}
+main section .linkler a{
+    margin-right: 30px;
+}
+main section .linkler a:hover{
+   color: #c01e3c;
+}
+main section.iPhone14{
+    background-color: whitesmoke;
+    color: black;
+}
+main section.iPhone14 p{
+    color: rgb(91, 89, 89);
+}
+main section.iPhone14 .satisTarihi{
+   font-size: 23px;
+   margin-bottom: 30px;
+}
+main section.watch h2 img{
+width: 55px;
+height: auto;    
+}
+main section.watch .series{
+    letter-spacing: 10px;
+    font-weight: 500;
+    color: #c01e3c;
+}
