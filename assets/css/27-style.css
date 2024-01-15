@@ -1,0 +1,20 @@
+.chk-mod{
+    display: none;
+}p.content{
+    text-align: justify;
+}
+
+.chk-mod:checked+p.content{
+background-color: black;
+color: azure;
+font-size: 1.3rem;
+}
+.btn-mod{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 3px red dashed;
+}

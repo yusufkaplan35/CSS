@@ -1,0 +1,35 @@
+nav.menu {
+    display: inline-block;
+    margin:10px;
+    cursor: pointer;
+}
+nav.menu button{
+    cursor: pointer;
+    background-color: crimson;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 15px;
+}
+nav.menu ul{
+    list-style-type:none ;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: blueviolet;
+    display: none;
+ 
+}
+nav.menu:hover ul{
+    display: block;
+}
+nav.menu:hover ul li{
+    line-height: 2;
+}
+nav.menu ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+nav.menu ul li a:hover{
+    background-color: chartreuse;
+    color:rgb(226, 43, 80) ;
+    border-radius: 5px;
+}

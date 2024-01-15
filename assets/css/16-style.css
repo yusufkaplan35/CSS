@@ -5,6 +5,9 @@ body{
 a{
     text-decoration: none;
 }
+nav{
+    display: block;
+}
 header nav.nav-menu{
     background-color: #454545;
     text-align: center;
@@ -65,4 +68,8 @@ main section.watch .series{
     letter-spacing: 10px;
     font-weight: 500;
     color: #c01e3c;
+}
+section.watch h2 img{
+    width: 10px;
+    height: 10px;
 }

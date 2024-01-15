@@ -1,0 +1,22 @@
+div.container{
+    display: flex; /*default değeri row dur*/
+    flex-direction: column; /*coloumn alt alta olur*/
+    flex-direction: row-reverse; /*en sondakini başa alır*/
+    flex-direction: column-reverse; /*tam tersi sıralama yapar*/
+    
+}
+div.container div:nth-child(1){
+    background-color: blueviolet;
+}
+div.container div:nth-child(2){
+    background-color: hotpink;
+}
+div.container div:nth-child(3){
+    background-color: gold;
+}
+div.container div:nth-child(4){
+    background-color: red;
+}
+div.container div:nth-child(5){
+    background-color: green;
+}

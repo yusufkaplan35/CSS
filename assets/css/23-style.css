@@ -1,0 +1,68 @@
+form.form-login input[type="text"]{
+    background-color: aquamarine;
+    border: none;
+    font-size: 30px;
+}
+form.form-login input[type="text"]:focus{
+    background-color: blueviolet;
+}
+/* 
+form.form-login input[type="checkbox"]:checked{
+    outline: 3px dotted red;
+ 
+ 
+}
+ */
+.chkMenu:checked{
+    outline: 2px dashed blue;
+}
+a.link1:hover{
+    color: red;
+}
+a.link1:active{
+    color: green;
+}
+a.link1:visited{
+    color: gold;
+}
+.mailInput:focus{
+    background-color: red;
+    color: aliceblue;
+}
+ul.list li:first-child{
+    color: red;
+    font-size: 30px;
+    font-style: italic;
+}
+ul.list li:last-child{
+    color: blue;
+    font-size: 30px;
+    font-style: normal;
+}
+ul.list li:nth-child(2){
+    color: green;
+    font-size: 30px;
+}
+ul.list li:nth-child(1){
+    color: yellow;
+    background-color: rgb(238, 0, 255);
+}
+div.container ul:nth-child(2),
+div.container ul:nth-child(3){
+    background-color: cadetblue;
+}
+table.tablo{
+    border-collapse: collapse;
+}
+table.tablo tr:nth-child(odd){
+    background-color: aqua;
+}
+table.tablo tr:nth-child(even){
+    background-color: rgb(155, 87, 163);
+}
+table.tablo tr:nth-child(3){
+    background-color: rgb(165, 199, 63);
+}
+table.tablo tr:nth-child(3n+1){
+    background-color: crimson;
+}
