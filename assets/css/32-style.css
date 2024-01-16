@@ -1,0 +1,46 @@
+body{
+    border: 30px red solid;
+}
+.title{
+    color: red;
+    text-align: center;   
+}
+.title:hover{
+    cursor: pointer;
+    border-bottom: 5px solid black;
+    
+}
+
+.kutu-1{
+    border: 5px solid aqua;
+    padding: 20px;
+    text-align: center;
+    background-color: yellow;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.kutu-2{
+    border: 5px dashed blue;
+    padding: 20px;
+    text-align: center;
+    background-color: purple;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.kutu-3{
+    border: 5px double green;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.kutu-4{
+    border-bottom: 4px royalblue ridge;
+    border-right: 5px black outset;
+    margin-bottom: 200px;
+    background-color: green;
+    border-top: 5px orange inset;
+    border-left: 14px brown groove;
+}

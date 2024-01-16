@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    padding: 100px;
+    background-image: url("/assets/image/gunesin_dogusu_ve_batisi.jpg");
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+div.banner-1{
+    height: 50vh;
+    background-image: url("/assets/image/bg.jpg");
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: contain;
+}
+div.banner-2{
+    height: 50vh;
+    background-image: url("/assets/image/nature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
