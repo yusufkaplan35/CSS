@@ -1,0 +1,32 @@
+nav.menu{
+    margin: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+nav.menu button{
+    cursor: pointer;
+    font-size: 50px;
+}
+nav.menu ul{
+    list-style-type: none;
+    margin: 1rem;
+    padding:0rem;
+    background-color: lightgray;
+    display: none;
+    font-size: 2rem;
+    width: 200px;
+}
+
+
+nav.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav.menu:hover ul{
+    display: block;
+}
+nav.menu ul::first-line{
+    display: block;
+    background-color: black;
+}
+

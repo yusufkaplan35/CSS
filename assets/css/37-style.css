@@ -1,0 +1,29 @@
+.box{
+    width: 150px;
+    height: 150px;
+}
+/* .box-1{
+    background-color: blueviolet;
+    position: relative;
+    top:250px;
+    left: 150px;
+    z-index:2;
+}
+.box-2{
+    background-color:salmon;
+    position: relative;
+    top: 200px;
+    left:50px;
+} */
+.box-3{
+    background-color:royalblue ;
+    height:100vh;
+    position: relative;
+}
+.box-3 img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom:30px;
+    left: 600px;
+}

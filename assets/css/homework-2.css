@@ -1,0 +1,44 @@
+table{
+    margin: 0px;
+    padding: 0px;
+}
+table thead, tfoot{
+    font-size: 20px;
+    color: white;
+    background-color: rgba(5, 4, 4, 0.786);
+    text-align: center;
+}
+td.quantity{
+    text-align: center;
+}
+td.price{
+    text-align: right;
+}
+tbody tr:nth-child(odd){
+    background-color: grey;
+}
+tbody tr:nth-child(even){
+    background-color: lightgray;
+}
+button{
+    background-color: rgba(255, 68, 0, 0.851);
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+button.shopping{
+    margin-left: 170px;
+    
+}
+button.fa-basket-shopping{
+    color: black;
+}
+.fa-pen-to-square:hover{
+    background-color: white;
+    color: green;
+}
+.fa-trash-can:hover{
+    background-color: white;
+    color: red;
+}

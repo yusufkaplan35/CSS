@@ -1,0 +1,90 @@
+div.bg {
+    padding: 50px;
+    margin: 30px;
+    margin-bottom: 2rem;
+  }
+  .bg-1 {
+    background-image: linear-gradient(orangered, gold, #faeed1, green);
+  }
+  .bg-2 {
+    background-image: linear-gradient(to right, royalblue, yellow);
+  }
+  .bg-3 {
+    background-image: linear-gradient(45deg, red, indigo, green);
+  }
+  .bg-4 {
+    background-image: linear-gradient(to top, khaki 8%, black, turquoise);
+  }
+  .bg-5 {
+    background-image: repeating-linear-gradient(
+        0deg,
+        hsla(172, 82%, 61%, 0.5) 0px,
+        hsla(172, 82%, 61%, 0.5) 5px,
+        transparent 5px,
+        transparent 24px,
+        hsla(244, 82%, 61%, 0.5) 24px,
+        hsla(244, 82%, 61%, 0.5) 59px,
+        transparent 59px,
+        transparent 96px,
+        hsla(316, 82%, 61%, 0.5) 96px,
+        hsla(316, 82%, 61%, 0.5) 139px,
+        transparent 139px,
+        transparent 144px,
+        hsla(28, 82%, 61%, 0.5) 144px,
+        hsla(28, 82%, 61%, 0.5) 163px,
+        transparent 163px,
+        transparent 197px,
+        hsla(100, 82%, 61%, 0.5) 197px,
+        hsla(100, 82%, 61%, 0.5) 210px,
+        transparent 210px,
+        transparent 238px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        hsla(172, 82%, 61%, 0.5) 0px,
+        hsla(172, 82%, 61%, 0.5) 31px,
+        transparent 31px,
+        transparent 48px,
+        hsla(244, 82%, 61%, 0.5) 48px,
+        hsla(244, 82%, 61%, 0.5) 95px,
+        transparent 95px,
+        transparent 137px,
+        hsla(316, 82%, 61%, 0.5) 137px,
+        hsla(316, 82%, 61%, 0.5) 163px,
+        transparent 163px,
+        transparent 183px,
+        hsla(28, 82%, 61%, 0.5) 183px,
+        hsla(28, 82%, 61%, 0.5) 215px,
+        transparent 215px,
+        transparent 264px,
+        hsla(100, 82%, 61%, 0.5) 264px,
+        hsla(100, 82%, 61%, 0.5) 302px,
+        transparent 302px,
+        transparent 335px
+      ),
+      linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
+  }
+  .bg-6 {
+    background-image: radial-gradient(ellipse,purple 23%,royalblue 32%,green);
+  }
+  .bg-7 {
+    background-image: linear-gradient(
+      45deg,
+      rgba(22, 31, 43, 0.5) 0%,
+      rgba(22, 31, 43, 0.5) 12.5%,
+      rgba(53, 28, 54, 0.5) 12.5%,
+      rgba(53, 28, 54, 0.5) 25%,
+      rgba(83, 25, 65, 0.5) 25%,
+      rgba(83, 25, 65, 0.5) 37.5%,
+      rgba(114, 22, 76, 0.5) 37.5%,
+      rgba(114, 22, 76, 0.5) 50%,
+      rgba(144, 20, 86, 0.5) 50%,
+      rgba(144, 20, 86, 0.5) 62.5%,
+      rgba(175, 17, 97, 0.5) 62.5%,
+      rgba(175, 17, 97, 0.5) 75%,
+      rgba(205, 14, 108, 0.5) 75%,
+      rgba(205, 14, 108, 0.5) 87.5%,
+      rgba(236, 11, 119, 0.5) 87.5%,
+      rgba(236, 11, 119, 0.5) 100%
+    );
+  }

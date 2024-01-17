@@ -14,7 +14,7 @@ a.emojilink:hover{
     color: aqua;
     text-decoration: overline;
 }
-/* cursor pointer mouse okunu el yapıyor */
+/* cursor pointer mouse okunur el yapıyor */
 .title:hover{
     cursor: pointer;
     text-align: center;
