@@ -1,0 +1,13 @@
+.title {
+    color: red;
+    text-align: center;
+}
+div.divEl {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    transform: translate(20%, 50%);
+}
+.imgEl {
+    transform: rotate(90deg) scale(1.5) translateX(50%);
+}

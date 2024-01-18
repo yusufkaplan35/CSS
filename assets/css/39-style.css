@@ -1,0 +1,111 @@
+:root{
+    --color1: rgb(70, 189, 244);
+    --color2: #FBB040;
+    --color3: rgb(52, 52, 52);
+    --color4:rgb(235, 228, 228);
+    --colorWhatsapp:green;
+    --color5:rgb(150, 134, 134);
+}
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+header.topbar{
+    background-color: var(--color3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: var(--color4);
+    font-size: 1.5rem;
+}
+header.topbar ul,
+section.menubar ul
+{
+    list-style-type: none;
+    display: flex;
+    gap: 1.3rem;
+    margin: 0;
+    padding: 0;
+}
+header.topbar a{
+    text-decoration: none;
+    color: var(--color4);
+}
+section.menubar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: var(--color4);
+}
+section.menubar img{
+    width: 200px;
+    height: auto;
+}
+section.menubar a{
+    text-decoration: none;
+    background-color: var(--color1);
+    color: var(--color3);
+    padding: 5px 10px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+}
+section.menubar a:hover{
+    background-color: var(--color2);
+    color: var(--color4);
+}
+section.slider{
+    background-image: url("/assets/image/gunesin_dogusu_ve_batisi.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+    position: relative;
+}
+section.slider h2{
+    position: absolute;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: var(--color5);
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 120px;
+    text-shadow: 0 0 0 10px;
+    letter-spacing: 6px;
+}
+div.watsapp-icon{
+    position: fixed;
+    bottom:50px ;
+    right: 50px;
+    font-size: 3rem;
+    background-color: var(--colorWhatsapp);
+    color: var(--color4);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+div.watsapp-icon:hover{
+    background-color: var(--color4);
+    color: var(--colorWhatsapp);
+}
+footer.footerEl{
+    background-color: var(--color3);
+    color: var(--color4);
+    padding: 20px;
+}
+footer.footerEl .footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
