@@ -1,0 +1,121 @@
+:root{
+    --color-white:#ffffff;
+    --color-tk:#49bee4;
+    --color-gray:gray;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body,ul,table,p{
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+a{
+    text-decoration: none;
+    color:black
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.inTopCont{
+    background-color:var(--color-tk);
+}
+
+.inTop{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between
+}
+
+.inTop .address, .inTop nav a{
+    color:var(--color-white);
+    font-size:12px;
+}
+
+.inTop nav{
+    display: flex;
+    gap:14px
+}
+
+.inBottomCont{
+    background-color: var(--color-white);
+}
+
+.inBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.inBottom img{
+    width: 70px;
+    height: 70px;
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+    gap:20px
+}
+
+.bar i.barIcon{
+    color:var(--color-tk);
+    font-size:30px
+}
+
+.bar .inBar{
+    display: flex;
+    flex-direction: column;
+    gap:3px
+}
+
+.bar .inBar p:first-child{
+    font-size: 12px;
+    color:var(--color-gray)
+}
+
+.bar .inBar p:last-child{
+    color:#1c68aa;
+    font-size: 14px;
+}
+
+.bar .inBar p:last-child span{
+    color:#ec2f50
+}
+
+.bar:not(:last-child):after{
+    content: '';
+    background-color:#ccc;
+    height: 50px;
+    width: 1px;
+    margin-left:20px
+}
+
+.openTimes .inBar p:last-child{
+    font-weight: 600;
+    color:#6f6f6f
+}
+
+.request button{
+    background-color: var(--color-tk);
+    border:0;
+    color:var(--color-white);
+    width:150px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+.topBar{
+    display: flex;
+    gap:50px
+}

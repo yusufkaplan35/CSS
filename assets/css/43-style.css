@@ -1,0 +1,49 @@
+body{
+    padding: 30px;
+}
+div.boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div.boxes > div{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    border-radius: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.1rem;
+    color: whitesmoke;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+div.boxes div:last-child{
+    background-color: red;
+    display: none;
+}
+
+@media screen and (min-width:900px) and (max-width:1200px){
+    div.boxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5rem;
+    }
+    div.boxes div:last-child{
+        background-color: red;
+        display: block;
+     
+    }
+    div.boxes .box-3{
+        background-color: coral;
+        color: aliceblue;
+        
+    }
+    
+}
+
+
