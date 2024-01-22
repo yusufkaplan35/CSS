@@ -8,10 +8,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color: #eee;
+}
+
 html,body,ul,table,p{
     padding:0;
     margin:0;
     border:0;
+}
+
+ul li{
+    list-style-type: none;
 }
 
 a{
@@ -20,7 +28,7 @@ a{
 }
 
 .container{
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -119,3 +127,255 @@ a{
     display: flex;
     gap:50px
 }
+
+.header{
+    box-shadow: 0px 0px 148px 50px rgb(0 0 0 / 82%);
+    z-index: 1;
+    position: relative;
+}
+
+.slide{
+    height: 400px;
+    background-image:url('../image/a.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom:30px
+}
+
+.slide:after{
+    content: '';
+    background-color: rgba(0, 0, 0, 0.387);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:1
+}
+
+.menu{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+}
+
+.menuCont{
+    border-bottom:1px solid rgba(237, 237, 237, 0.493);
+    z-index: 3;
+    position: relative;
+}
+
+.slide ul.textMenu{
+    display: flex;
+    gap:30px
+}
+
+.slide ul.iconMenu{
+    display: flex;
+    gap:7px
+}
+
+.slide ul.shopSearchMenu{
+    display: flex;
+    gap: 20px;
+}
+
+.slide ul.textMenu li.homeIcon a i{
+    color:var(--color-tk);
+    font-size: 20px;
+}
+
+.slide ul.textMenu li a{
+    color:var(--color-white);
+    font-size:12px
+ }
+
+ .slide ul.textMenu li{
+    position: relative;
+    
+ }
+
+ .slide ul.textMenu li.dropdown i{
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--color-white);
+    font-size: 10px;
+ }
+
+ .slide ul.iconMenu li a{
+    background-color: #ffffff73;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    font-size: 13px;
+ }
+
+ .slide ul.shopSearchMenu li a{
+    color:var(--color-tk);
+    font-size:20px
+}
+
+.decoration{
+    margin-bottom:80px;
+    width: 400px;
+    z-index: 10000;
+    position: relative;
+}
+
+.decoration h1{
+    color:var(--color-white)
+}
+
+.decoration h1 span{
+    color:var(--color-tk)
+}
+
+.decoration p{
+    color:var(--color-white);
+    line-height: 22px;
+    font-size: 14px;
+    margin-bottom:30px
+}
+
+.decoration button.firstBtn{
+    border:none;
+    background-color: var(--color-tk);
+    color:var(--color-white);
+    border-radius: 2px;
+    padding: 10px 30px;
+}
+
+
+.decoration button.secondBtn{
+    border:none;
+    background-color: transparent;
+    color: var(--color-white);
+    margin-left:20px
+}
+
+.decoration button.secondBtn span{
+    border-bottom:1px solid var(--color-tk)
+}
+
+main{
+    display: flex;
+    gap:20px;
+}
+
+main section{
+    display: flex;
+    gap:20px
+}
+
+main section article{
+    background-color: var(--color-white);
+    height: 300px;
+    width: 235px;
+    border-radius: 2px;
+}
+
+main aside{
+    background-color: var(--color-white);
+    height: 260px;
+    width: 235px;
+    border-radius: 2px;
+    padding:20px
+}
+
+main aside div{
+    font-size: 22px;
+    margin-bottom:22px;
+    position: relative
+}
+
+main aside div:after{
+    content: '';
+    background-color: var(--color-tk);
+    width: 30px;
+    height: 3px;
+    bottom:-12px;
+    left:0;
+    position: absolute
+}
+
+main aside div:before{
+    content: '';
+    background-color: #ccc;
+    width: 150px;
+    height: 3px;
+    bottom:-12px;
+    right:0;
+    position: absolute
+}
+
+main aside p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom:22px;
+    color:rgb(90, 90, 90)
+}
+
+main aside button{
+    border: none;
+    background-color: var(--color-tk);
+    color:var(--color-white);
+    border-radius: 2px;
+    width: 100%;
+    height: 42px;
+
+}
+
+main section article div.imgCont{
+    background-color: red;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+} 
+
+main section article div.imgCont img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+} 
+
+main section article div.imgCont div.imgText{
+    color:var(--color-white);
+    position: absolute;
+    bottom:15px;
+    right:0;
+    left: 0;
+    text-align: center;
+    z-index: 9;
+ } 
+
+main section article .imgCont:after{
+    content: '';
+    background:linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.628));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+ }
+
+
+main section article p{
+    font-size: 14px;
+    padding:20px;
+    line-height: 24px;
+    color:rgb(90, 90, 90)
+ }
